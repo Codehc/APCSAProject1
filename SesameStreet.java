@@ -1,13 +1,12 @@
 import java.util.HashMap;
 import java.util.Scanner;
-import java.util.Set;
 
 public class SesameStreet {
     private HashMap<String, String> characters;
     private String mainCharacter;
     private String antagonist;
 
-    public SesameStreet(HashMap characters) {
+    public SesameStreet(HashMap<String, String> characters) {
         this.characters = characters;
 
         generateRandomMainCharacter();
